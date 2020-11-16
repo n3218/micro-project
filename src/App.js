@@ -1,12 +1,12 @@
 import React from "react"
-import CreatePost from "./CreatePost"
+import PostCreate from "./PostCreate"
 import PostList from "./PostList"
 
 const App = () => {
   return (
     <div className="container">
       <h1>Create Post</h1>
-      <CreatePost />
+      <PostCreate />
       <hr />
       <h2>Posts</h2>
       <PostList />

@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import axios from "axios"
 
-const CreateComment = ({ postId }) => {
+const CommentCreate = ({ postId }) => {
   const [content, setContent] = useState("")
 
   const onSubmitHandler = async e => {
@@ -23,4 +23,4 @@ const CreateComment = ({ postId }) => {
   )
 }
 
-export default CreateComment
+export default CommentCreate
